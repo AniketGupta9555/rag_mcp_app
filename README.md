@@ -17,16 +17,3 @@ Built with **FAISS** (for vector search), **Sentence-Transformers** (for embeddi
 
 ---
 
-## 📂 Project Structure
-rag_mcp_app/
-│── app.py # FastAPI backend
-│── retriever.py # FAISS retriever
-│── ingestion.py # PDF processing
-│── preprocess.py # Build FAISS index from PDFs
-│── ollama_mcp.py # Ollama interface
-│── ui.py # Streamlit chat UI
-│── requirements.txt # Dependencies
-│── data/
-│ ├── pdfs/ # Store PDFs here
-│ ├── index.faiss # Vector index (after preprocessing)
-│ ├── meta.pkl # Metadata (after preprocessing)
